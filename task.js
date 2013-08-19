@@ -1,6 +1,19 @@
 /**
-* выводит координаты метеорных потоков в ра
-*
+* Выводит  траекторрии двжижения метеорных потоков в радиусе 3-х световых лет.
+* @name Vessel.getAttention
+*/
+Vessel.prototype.getAttention  = function (GalaktikMeteo) {}
+
+/**
+* Подключается к межгалактическим метеорологическим спутникам.
+* @param {GismeteoFlyer} спутник необходимый для получения данных
+* @param (Galaktik5Pb} выбор протокола для установления высокоскоросной связи 5PiB
+* @name Vessel.GalaktikMeteo
+*/
+Vessel.prototype.GalaktikMeteo = function (Galaktik5Pb, GismeteoFlyer) {}
+
+
+/**
 * Выводит остаток топлива в баках.
 * @name Vessel.getFreeFuel  
 */
