@@ -7,7 +7,7 @@ Vessel.prototype.getAttention  = function (GalaktikMeteo) {}
 /**
 * Подключается к межгалактическим метеорологическим спутникам.
 * @param {GismeteoFlyer} спутник необходимый для получения данных
-* @param (Galaktik5Pb} выбор протокола для установления высокоскоросной связи 5PiB
+* @param (Galaktik5Pb} выбор протокола для установления высокоскоростной связи 5PiB
 * @name Vessel.GalaktikMeteo
 */
 Vessel.prototype.GalaktikMeteo = function (Galaktik5Pb, GismeteoFlyer) {}
