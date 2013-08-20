@@ -54,3 +54,8 @@ Vessel.prototype.RateFuelCargoFull  = function () {}
 * MyRoutes.unshift(earth);
 */
 Vessel.prototype.AddinMyRoutes () {}
+/**
+* Выводит из яндекс аккаунта корабля текущий остаток межгалактической валюты на счету кошелька. 
+* @name Vessel.prototype.GalaktikMoneyThis 
+*/
+Vessel.prototype.GalaktikMoneyThis  = function () {}
