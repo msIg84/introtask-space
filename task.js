@@ -1,5 +1,5 @@
 /**
-* Выводит  траекторрии двжижения метеорных потоков в радиусе 3-х световых лет.
+* Выводит  траектории двжижения метеорных потоков в радиусе 3-х световых лет.
 * @name Vessel.getAttention
 */
 Vessel.prototype.getAttention  = function (GalaktikMeteo) {}
